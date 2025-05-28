@@ -85,3 +85,27 @@ Contributions are welcome! If you have ideas for features, improvements, or find
 PassiveJS is licensed under the MIT License. See `LICENSE` for more information.
 ```
 
+
+## Configuration File
+
+The `config/settings.json` file controls key display options:
+
+- `contentWidth` and `contentHeight` set the base resolution used for scaling the content wrapper.
+- `autoScale` toggles automatic scaling so the display fits any screen.
+- `slideshowInterval` defines how long each slide is shown in milliseconds.
+
+Reload the page after modifying this file to apply changes.
+
+## Running a Local Server
+
+To preview the project locally, you can serve the files with Python:
+
+```bash
+python3 -m http.server
+```
+
+Then open `http://localhost:8000/index.html` in your browser.
+
+## Contribution Guidelines
+
+Contributions are welcome! Please open an issue for bugs or feature requests. Pull requests are encouraged for improvements and should target the `main` branch.
